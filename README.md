@@ -1,2 +1,2 @@
-# Personal Portfoli
+# Personal Portfolio
 A portfolio website
