@@ -1,3 +1,4 @@
+import AboutCard from "./components/AboutCard";
 import ProjectList from "./components/ProjectList";
 import projects from "./projects/projects.json"
 
@@ -5,7 +6,9 @@ export default function Home() {
   return (
     <div className="">
       <main className="">
-        <div className="grid grid-cols-3 gap-5">
+        <AboutCard />
+        
+        <div className="grid grid-cols-3 gap-3">
           {projects.map((project, index) => (
             <ProjectList 
             key={index} 
