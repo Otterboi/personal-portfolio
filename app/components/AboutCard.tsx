@@ -34,13 +34,12 @@ export default function AboutCard() {
           </div>
 
           <div className="mt-6 flex flex-col sm:flex-row gap-3 sm:gap-4">
-            <button className="rounded-md bg-slate-800 py-3 px-6 text-sm text-white shadow-md hover:bg-slate-700 transition">
-              Contact Me
-            </button>
-
-            <button className="rounded-md border border-slate-300 py-3 px-6 text-sm text-slate-700 hover:bg-slate-100 transition">
-              View Projects
-            </button>
+          <a href="#" className="rounded-md bg-slate-800 py-3 px-6 text-sm text-white shadow-md hover:bg-slate-700 transition text-center">
+            GitHub
+          </a>
+            <a href="mailto:your.email@example.com" className="rounded-md bg-slate-800 py-3 px-6 text-sm text-white shadow-md hover:bg-slate-700 transition text-center">
+              Email
+            </a>
           </div>
         </div>
       </div>
