@@ -9,7 +9,7 @@ export default function Home() {
       <main className="">
         <AboutCard />
         
-        <div className="mb-2">
+        <div className="mb-2 mt-9">
           <h2 className="text-3xl sm:text-4xl font-bold text-slate-800">
             Skills & Technologies
           </h2>
