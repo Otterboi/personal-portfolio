@@ -21,9 +21,7 @@ export default function Home() {
 
         <Skills />
 
-        <br /><br />
-
-        <div className="mb-1">
+        <div className="mb-1 mt-12">
           <h2 className="text-3xl sm:text-4xl font-bold text-slate-800">
             Projects
           </h2>
