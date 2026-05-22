@@ -1,0 +1,18 @@
+[
+    {
+      "title": "Frontend",
+      "skills": ["React", "Next.js", "TypeScript", "Tailwind CSS", "HTML", "CSS"]
+    },
+    {
+      "title": "Backend",
+      "skills": ["Node.js", "Express", "REST APIs", "PostgreSQL", "MongoDB"]
+    },
+    {
+      "title": "Languages",
+      "skills": ["C++", "Java", "Python", "TypeScript"]
+    },
+    {
+      "title": "Tools",
+      "skills": ["Git", "Docker", "Linux", "VS Code"]
+    }
+]

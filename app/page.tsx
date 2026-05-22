@@ -1,6 +1,7 @@
 import AboutCard from "./components/AboutCard";
 import ProjectList from "./components/ProjectList";
-import projects from "./projects/projects.json"
+import Skills from "./components/Skills";
+import projects from "./dependencies/projects.json"
 
 export default function Home() {
   return (
@@ -8,9 +9,29 @@ export default function Home() {
       <main className="">
         <AboutCard />
         
-        <h2 className="text-3xl sm:text-4xl font-bold text-slate-800">
-          Projects
-        </h2>
+        <div className="mb-2">
+          <h2 className="text-3xl sm:text-4xl font-bold text-slate-800">
+            Skills & Technologies
+          </h2>
+
+          <p className="mt-2 text-slate-600 text-sm sm:text-base">
+            Technologies and tools I have experiance with.
+          </p>
+        </div>
+
+        <Skills />
+
+        <br /><br />
+
+        <div className="mb-1">
+          <h2 className="text-3xl sm:text-4xl font-bold text-slate-800">
+            Projects
+          </h2>
+
+          <p className="mt-2 text-slate-600 text-sm sm:text-base">
+            Projects that I have worked on as a developper.
+          </p>
+        </div>
         
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
           {projects.map((project, index) => (
