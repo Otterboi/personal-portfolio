@@ -1,6 +1,5 @@
 import AboutCard from "./components/AboutCard";
 import { Container } from "./components/Container";
-import Footer from "./components/Footer";
 import Header from "./components/Header";
 import ProjectList from "./components/ProjectList";
 import Skills from "./components/Skills";
@@ -8,7 +7,7 @@ import projects from "./dependencies/projects.json"
 
 export default function Home() {
   return (
-    <div className="">
+    <div className="px-6 sm:px-8 lg:px-12">
       <main className="pt-13">
         <Header />
         
@@ -16,11 +15,11 @@ export default function Home() {
           <AboutCard />
         </section>
 
-        <section id="skills" className="scroll-mt-10">
+        <section id="skills" className="scroll-mt-24">
           <Skills />
         </section>
 
-        <section id="projects">
+        <section id="projects" className="scroll-mt-24">
           <Container>
             <div className="mb-1 mt-12">
               <h2 className="text-3xl sm:text-4xl font-bold text-slate-800">
@@ -44,8 +43,6 @@ export default function Home() {
             </div>
           </Container>
         </section>
-
-        <Footer />
       </main>
     </div>
   );
