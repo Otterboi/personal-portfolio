@@ -2,36 +2,43 @@
     {
         "project_name": "name1",
         "project_description": "description",
-        "project_link": "link"
+        "project_link": "link",
+        "isPrivate": false
     },
     {
         "project_name": "name2",
         "project_description": "description",
-        "project_link": "link"
+        "project_link": "link",
+        "isPrivate": true
     },
     {
         "project_name": "name3",
         "project_description": "description",
-        "project_link": "link"
+        "project_link": "link",
+        "isPrivate": false
     },
     {
         "project_name": "name4",
         "project_description": "description",
-        "project_link": "link"
+        "project_link": "link",
+        "isPrivate": false
     },
     {
         "project_name": "name5",
         "project_description": "description",
-        "project_link": "link"
+        "project_link": "link",
+        "isPrivate": false
     },
     {
         "project_name": "name6",
         "project_description": "description",
-        "project_link": "link"
+        "project_link": "link",
+        "isPrivate": false
     },
     {
         "project_name": "name7",
         "project_description": "description",
-        "project_link": "link"
+        "project_link": "link",
+        "isPrivate": false
     }
 ]
