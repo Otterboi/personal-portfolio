@@ -37,11 +37,11 @@ export default function AboutCard() {
           <a href="#" className="rounded-md bg-slate-800 py-3 px-6 text-sm text-white shadow-md hover:bg-slate-700 transition text-center">
             GitHub
           </a>
-          <a href="mailto:your.email@example.com" className="rounded-md bg-slate-800 py-3 px-6 text-sm text-white shadow-md hover:bg-slate-700 transition text-center">
-            Email
-          </a>
           <a href="#" className="rounded-md bg-slate-800 py-3 px-6 text-sm text-white shadow-md hover:bg-slate-700 transition text-center">
             LinkedIn
+          </a>
+          <a href="mailto:your.email@example.com" className="rounded-md bg-slate-800 py-3 px-6 text-sm text-white shadow-md hover:bg-slate-700 transition text-center">
+            Email
           </a>
           </div>
         </div>
