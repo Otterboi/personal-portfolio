@@ -38,7 +38,7 @@ export default function Home() {
                 name={project.project_name}
                 description={project.project_description}
                 link={project.project_link}
-                isPrivate={project.isPrivate}
+                visibility={project.visibility}
                 />
               ))}
             </div>

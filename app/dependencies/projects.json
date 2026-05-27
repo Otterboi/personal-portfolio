@@ -3,42 +3,63 @@
         "project_name": "name1",
         "project_description": "description",
         "project_link": "link",
-        "isPrivate": false
+        "visibility": {
+            "isPrivate" : false,
+            "reason": ""
+        }
     },
     {
         "project_name": "name2",
         "project_description": "description",
         "project_link": "link",
-        "isPrivate": true
+        "visibility": {
+            "isPrivate" : true,
+            "reason": "course requirements"
+        }
     },
     {
         "project_name": "name3",
         "project_description": "description",
         "project_link": "link",
-        "isPrivate": false
+        "visibility": {
+            "isPrivate" : false,
+            "reason": ""
+        }
     },
     {
         "project_name": "name4",
         "project_description": "description",
         "project_link": "link",
-        "isPrivate": false
+        "visibility": {
+            "isPrivate" : false,
+            "reason": ""
+        }
     },
     {
         "project_name": "name5",
         "project_description": "description",
         "project_link": "link",
-        "isPrivate": false
+        "visibility": {
+            "isPrivate" : false,
+            "reason": ""
+        }
     },
     {
         "project_name": "name6",
         "project_description": "description",
         "project_link": "link",
-        "isPrivate": false
+        "visibility": {
+            "isPrivate" : false,
+            "reason": ""
+        }
     },
     {
         "project_name": "name7",
         "project_description": "description",
         "project_link": "link",
-        "isPrivate": false
+        "visibility": {
+            "isPrivate" : false,
+            "reason": ""
+        }
     }
 ]
