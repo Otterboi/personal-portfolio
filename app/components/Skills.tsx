@@ -1,11 +1,14 @@
 import skillCategories from "../dependencies/skills.json";
 import { Container } from "./Container";
+import { Settings } from "lucide-react"
+
 
 export default function Skills() {
   return (
     <Container>
         <div className="mb-3 mt-9">
-          <h2 className="text-3xl sm:text-4xl font-bold text-slate-800">
+          <h2 className="text-3xl sm:text-4xl font-bold text-slate-800 flex items-center gap-2">
+            <Settings size={35}/>
             Skills & Technologies
           </h2>
 

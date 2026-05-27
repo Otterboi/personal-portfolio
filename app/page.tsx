@@ -4,6 +4,8 @@ import Header from "./components/Header";
 import ProjectList from "./components/ProjectList";
 import Skills from "./components/Skills";
 import projects from "./dependencies/projects.json"
+import { Folder } from "lucide-react"
+
 
 export default function Home() {
   return (
@@ -22,7 +24,8 @@ export default function Home() {
         <section id="projects" className="scroll-mt-24">
           <Container>
             <div className="mb-1 mt-12">
-              <h2 className="text-3xl sm:text-4xl font-bold text-slate-800">
+              <h2 className="text-3xl sm:text-4xl font-bold text-slate-800 flex items-center gap-2">
+                <Folder size={35}/>
                 Projects
               </h2>
 
