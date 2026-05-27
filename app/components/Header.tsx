@@ -29,15 +29,17 @@ export default function Header() {
 
   return (
     <header className={`fixed top-0 left-0 w-full z-50 bg-white border-b border-slate-200 transition-transform duration-300 ${showHeader ? "translate-y-0" : "-translate-y-full"}`}>
-      <nav className="max-w-7xl mx-auto py-4 flex justify-center sm:justify-start gap-12">
+      <nav className="max-w-7xl mx-auto py-4 flex justify-center sm:justify-start gap-8">
         <a href="#home" className="text-slate-600 hover:text-slate-900 font-semibold text-lg transition flex item-center gap-2">
           <Home />
           Home
         </a>
+        <span className="text-slate-400">|</span>
         <a href="#skills" className="text-slate-600 hover:text-slate-900 font-semibold text-lg transition flex item-center gap-2">
           <Settings />
           Skills
         </a>
+        <span className="text-slate-400">|</span>
         <a href="#projects" className="text-slate-600 hover:text-slate-900 font-semibold text-lg transition flex item-center gap-2">
           <Folder />
           Projects
