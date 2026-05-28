@@ -1,8 +1,16 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #1F1F28;
+  --card: #2A2A37;
+  --border: #44475A;
+
+  --text: #F2F2F7;
+  --text-muted: #B8B8C7;
+
+  --primary: #475841;
+
+  --skill-item: #44475A;
 }
 
 html {
@@ -11,6 +19,22 @@ html {
 
 body {
   background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  color: var(--text);
+}
+
+.card {
+  background-color: var(--card);
+  border-color: var(--border);
+}
+
+.skills-item {
+  background-color: var(--skill-item);
+}
+
+.muted-text {
+  color: var(--text-muted)
+}
+
+.button {
+  background-color: var(--primary);
 }

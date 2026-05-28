@@ -24,12 +24,12 @@ export default function Home() {
         <section id="projects" className="scroll-mt-24">
           <Container>
             <div className="mb-1 mt-12">
-              <h2 className="text-3xl sm:text-4xl font-bold text-slate-800 flex items-center gap-2">
+              <h2 className="text-3xl sm:text-4xl font-bold flex items-center gap-2">
                 <Folder size={35}/>
                 Projects
               </h2>
 
-              <p className="mt-2 text-slate-600 text-sm sm:text-base">
+              <p className="muted-text mt-2 text-sm sm:text-base">
                 Projects that I have worked on as a developper.
               </p>
             </div>
