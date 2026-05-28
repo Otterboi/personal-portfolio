@@ -34,13 +34,13 @@ export default function AboutCard() {
           </div>
 
           <div className="mt-6 flex flex-col sm:flex-row gap-3 sm:gap-4">
-          <a href="#" className="button rounded-md py-3 px-6 text-sm text-white shadow-md hover:bg-slate-700 transition text-center transition duration-300 ease-in-out hover:-translate-y-1 hover:scale-[1.02]">
+          <a href="https://github.com/Otterboi" className="button rounded-md py-3 px-6 text-sm text-white shadow-md hover:bg-slate-700 transition text-center transition duration-300 ease-in-out hover:-translate-y-1 hover:scale-[1.02]">
             GitHub
           </a>
-          <a href="#" className="button rounded-md py-3 px-6 text-sm text-white shadow-md hover:bg-slate-700 transition text-center transition duration-300 ease-in-out hover:-translate-y-1 hover:scale-[1.02]">
+          <a href="https://www.linkedin.com/in/joseph-pagliuca-9ba852183/" className="button rounded-md py-3 px-6 text-sm text-white shadow-md hover:bg-slate-700 transition text-center transition duration-300 ease-in-out hover:-translate-y-1 hover:scale-[1.02]">
             LinkedIn
           </a>
-          <a href="mailto:your.email@example.com" className="button rounded-md py-3 px-6 text-sm text-white shadow-md hover:bg-slate-700 transition text-center transition duration-300 ease-in-out hover:-translate-y-1 hover:scale-[1.02]">
+          <a href="mailto:jpagliuca98@gmail.com" className="button rounded-md py-3 px-6 text-sm text-white shadow-md hover:bg-slate-700 transition text-center transition duration-300 ease-in-out hover:-translate-y-1 hover:scale-[1.02]">
             Email
           </a>
           </div>
