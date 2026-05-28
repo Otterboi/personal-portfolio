@@ -11,6 +11,7 @@
   --primary: #475841;
 
   --skill-item: #44475A;
+  --learn-more: #4c9b4d;
 }
 
 html {
@@ -32,9 +33,13 @@ body {
 }
 
 .muted-text {
-  color: var(--text-muted)
+  color: var(--text-muted);
 }
 
 .button {
   background-color: var(--primary);
+}
+
+.learn-more {
+  color: var(--learn-more);
 }
