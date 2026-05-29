@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - main
+    paths-ignore:
+      - '**/*.md'
+      - '**/*.yml'
 
 # prevent concurrent deploys doing strange things
 concurrency:
