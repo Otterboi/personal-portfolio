@@ -7,7 +7,7 @@ export default function AboutCard() {
       <div className="card flex flex-col md:flex-row shadow-sm border border-slate-200 rounded-lg my-6 w-full overflow-hidden">
         <div className="relative w-full md:w-1/3 h-64 md:h-auto">
           <Image
-            src="https://docs.material-tailwind.com/img/team-3.jpg"
+            src="./me.jpg"
             alt="profile picture"
             fill
             className="object-cover"
