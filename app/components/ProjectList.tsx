@@ -12,12 +12,12 @@ export default function ProjectList({name, description, link, visibility}: Proje
   return (
     <div className="card relative flex flex-col my-3 shadow-sm border p-4 sm:p-6 rounded-lg transition duration-300 ease-in-out hover:-translate-y-1 hover:scale-[1.02] w-full">
       <div className="flex items-center mb-3">
-        <h5 className="text-lg sm:text-xl font-semibold">
+        <p className="text-2xl sm:text-3xl font-semibold">
           {name}
-        </h5>
+        </p>
       </div>
 
-      <p className="text-sm sm:text-base leading-relaxed font-light mb-4">
+      <p className="project-description text-base leading-relaxed mb-4">
         {description}
       </p>
 
@@ -30,8 +30,8 @@ export default function ProjectList({name, description, link, visibility}: Proje
             </svg>
           </a>
         ) : (
-          <p className="muted-text text-sm italic">
-            Note: This project is private due to {visibility.reason}
+          <p className="private-repo text-sm italic">
+            Private repository - {visibility.reason}
           </p>
         )}
       </div>

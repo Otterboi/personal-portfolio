@@ -1,62 +1,80 @@
 [
     {
-        "project_name": "name1",
-        "project_description": "description",
-        "project_link": "link",
-        "visibility": {
-            "isPrivate" : false,
-            "reason": ""
-        }
-    },
-    {
-        "project_name": "name2",
-        "project_description": "description",
-        "project_link": "link",
+        "project_name": "ScribePilot",
+        "project_description": "A secure, domain-specific AI coding assistant designed for enterprise use, built as a VS Code extension with Python, TypeScript, FastAPI and Ollama.",
+        "project_link": "",
         "visibility": {
             "isPrivate" : true,
-            "reason": "course requirements"
+            "reason": "course requirements."
         }
     },
     {
-        "project_name": "name3",
-        "project_description": "description",
-        "project_link": "link",
+        "project_name": "Concordia Campus App",
+        "project_description": "A React Native app, providing Concordia University students access to campus resources and navigation from one class to the next.",
+        "project_link": "https://github.com/MTEspo/SE390-Mini-capstone-project",
         "visibility": {
             "isPrivate" : false,
             "reason": ""
         }
     },
     {
-        "project_name": "name4",
-        "project_description": "description",
-        "project_link": "link",
+        "project_name": "Astrid: Forgotten City",
+        "project_description": "A 2D platformer shoot'em up game made with Unity.",
+        "project_link": "https://otterboii.itch.io/astrid-forgotten-city",
         "visibility": {
             "isPrivate" : false,
             "reason": ""
         }
     },
     {
-        "project_name": "name5",
-        "project_description": "description",
-        "project_link": "link",
+        "project_name": "Candy Crush Fish",
+        "project_description": "A Unity game where the player completes fish themed Candy Crush style levels, points calulated using a specific rule set.",
+        "project_link": "https://github.com/Otterboi/COMP376-Assignment2",
         "visibility": {
             "isPrivate" : false,
             "reason": ""
         }
     },
     {
-        "project_name": "name6",
-        "project_description": "description",
-        "project_link": "link",
+        "project_name": "Game Jam: Tank Game",
+        "project_description": "Developed in 24 hours, this Unity game has the player control a tank while dodging obstacles, enemy tanks, towers and a gas cloud.",
+        "project_link": "https://github.com/Otterboi/COMP376-Assignment3",
         "visibility": {
             "isPrivate" : false,
             "reason": ""
         }
     },
     {
-        "project_name": "name7",
-        "project_description": "description",
-        "project_link": "link",
+        "project_name": "Smart Home Simulator",
+        "project_description": "A Java only application that simulates a smart home device, using JavaFX for the user interface.",
+        "project_link": "https://github.com/Otterboi/SOEN343_Project_Quantum_Otters",
+        "visibility": {
+            "isPrivate" : false,
+            "reason": ""
+        }
+    },
+    {
+        "project_name": "EntertainmentDB",
+        "project_description": "An assignment involving the use of public APIs to retrieve entries for Anime, TV Shows and Movies using Python. The data was then stored in both an SQL database and a Neo4j database to document performance differences.",
+        "project_link": "https://github.com/Lukateki/EntertainmentDB",
+        "visibility": {
+            "isPrivate" : false,
+            "reason": ""
+        }
+    },
+        {
+        "project_name": "CC: Tweaked Projects",
+        "project_description": "A collection of Lua projects for the Minecraft mod, CC: Tweaked.",
+        "project_link": "https://github.com/Otterboi/CC-Tweaked-Projects",
+        "visibility": {
+            "isPrivate" : false,
+            "reason": ""
+        }
+    },
+        {
+        "project_name": "Webfishing Plugins",
+        "project_description": "A collection of simple plugins for the video game Webfishing dedicated server Cove.",
+        "project_link": "https://github.com/Otterboi/Webfishing-Cove-Plugins",
         "visibility": {
             "isPrivate" : false,
             "reason": ""

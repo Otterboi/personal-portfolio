@@ -9,9 +9,11 @@
   --text-muted: #B8B8C7;
 
   --primary: #475841;
+  --accent: #4c9b4d;
 
   --skill-item: #44475A;
-  --learn-more: #4c9b4d;
+  --project-description: #c8c8d6;
+  --private-repo: #86ad88;
 }
 
 html {
@@ -41,5 +43,13 @@ body {
 }
 
 .learn-more {
-  color: var(--learn-more);
+  color: var(--accent);
+}
+
+.project-description {
+  color: var(--project-description);
+}
+
+.private-repo{
+  color: var(--private-repo);
 }

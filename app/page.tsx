@@ -30,7 +30,7 @@ export default function Home() {
               </h2>
 
               <p className="muted-text mt-2 text-sm sm:text-base">
-                Projects that I have worked on as a developper.
+                Projects that I have worked on as a developer.
               </p>
             </div>
           
