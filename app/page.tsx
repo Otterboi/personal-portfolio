@@ -4,7 +4,7 @@ import Header from "./components/Header";
 import ProjectList from "./components/ProjectList";
 import Skills from "./components/Skills";
 import projects from "./dependencies/projects.json"
-import { Folder } from "lucide-react"
+import { Folder, Settings } from "lucide-react"
 
 
 export default function Home() {
@@ -18,7 +18,19 @@ export default function Home() {
         </section>
 
         <section id="skills" className="scroll-mt-24">
-          <Skills />
+          <Container>
+            <div className="mb-3 mt-9">
+              <h2 className="text-3xl sm:text-4xl font-bold flex items-center gap-2">
+                <Settings size={35}/>
+                Skills & Technologies
+              </h2>
+
+              <p className="muted-text mt-2 text-sm sm:text-base">
+                Technologies and tools I am experianced with.
+              </p>
+            </div>
+            <Skills />
+          </Container>
         </section>
 
         <section id="projects" className="scroll-mt-24">
@@ -30,7 +42,7 @@ export default function Home() {
               </h2>
 
               <p className="muted-text mt-2 text-sm sm:text-base">
-                Projects that I have worked on as a developer.
+                Projects and assignments I have completed and contributed to.
               </p>
             </div>
           
