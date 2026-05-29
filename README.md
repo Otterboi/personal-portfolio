@@ -6,10 +6,8 @@ a software developer and Software Enginerring student.
 
 # Deployment
 
-The website is deployed on [neocities.org](https://neocities.org/).
+The website is deployed on [neocities.org](https://neocities.org/) and can be found [here](https://josephpagliuca.neocities.org/).
 
 Deployment is done through the CI/CD pipeline. To keep the website up to date, whenever the main branch
 is updated, the pipepline will build the project and send the HTML, CSS and JavaScript files to the neocities
 website and update it in real time.
-
-# Preview
