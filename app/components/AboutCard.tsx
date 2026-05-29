@@ -17,7 +17,7 @@ export default function AboutCard() {
         <div className="w-full md:w-2/3 flex flex-col justify-between p-6 md:p-10">
           <div>
             <h4 className="mb-2 text-2xl md:text-3xl font-semibold ">
-              About Me
+              Joseph Pagliuca
             </h4>
 
             <p className="muted-text text-sm md:text-base font-semibold uppercase">
@@ -25,11 +25,12 @@ export default function AboutCard() {
             </p>
 
             <p className="text-base md:text-lg mt-4 md:mt-6 font-light leading-relaxed">
-              Hi, I’m Natalie Paisley — a software developer passionate about building clean,
-              efficient, and user-friendly applications. I enjoy solving problems and turning ideas
-              into real-world projects.
-              <br /><br />
-              I specialize in full-stack development and enjoy working across frontend and backend systems.
+              I have a strong foundation in object-oriented programming and full-stack development.
+              I am more comfortable with backend programming, but I am also open to working on frontend
+              tasks. 
+              <br/><br/>
+              To me, software development is like solving a puzzle. I enjoy finding all the pieces
+              and building scalable, efficient and reliable applications.
             </p>
           </div>
 
