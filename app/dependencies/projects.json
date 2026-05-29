@@ -18,6 +18,15 @@
         }
     },
     {
+        "project_name": "Portfolio Website",
+        "project_description": "A Next.js website using Tailwind CSS to showcase my skills and projects as a software developer.",
+        "project_link": "https://github.com/Otterboi/personal-portfolio",
+        "visibility": {
+            "isPrivate" : false,
+            "reason": ""
+        }
+    },
+    {
         "project_name": "Astrid: Forgotten City",
         "project_description": "A 2D platformer shoot'em up game made with Unity.",
         "project_link": "https://otterboii.itch.io/astrid-forgotten-city",
